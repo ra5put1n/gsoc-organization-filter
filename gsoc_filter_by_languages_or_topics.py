@@ -5,7 +5,7 @@ from random import randint
 from time import sleep
 import neat
 
-url = 'https://summerofcode.withgoogle.com/archive/2018/organizations/'
+url = 'https://summerofcode.withgoogle.com/archive/2020/organizations/'
 
 response = get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
